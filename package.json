@@ -1,0 +1,22 @@
+{
+  "name": "sertifikat-yasaydigan-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "docx": "^9.5.1",
+    "dotenv": "^17.2.3",
+    "fs": "^0.0.1-security",
+    "jimp": "^0.16.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.10"
+  }
+}
