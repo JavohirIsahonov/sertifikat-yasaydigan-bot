@@ -1,8 +1,9 @@
 const TelegramBot = require("node-telegram-bot-api");
 const { createCanvas, loadImage, registerFont } = require("canvas");
 const fs = require("fs");
+require("dotenv").config();
 
-const bot = new TelegramBot("7735859166:AAGLTcOXbd4fW26NE0X2xnL8XA36BD94I4o", { polling: true });
+const bot = new TelegramBot(process.env.token, { polling: true });
 
 registerFont("./orbitron-bold.otf", { family: "Orbitron" });
 registerFont("./BBHSansHegarty-Regular.ttf", { family: "BBHSans" });
